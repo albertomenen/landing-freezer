@@ -2,39 +2,40 @@ export default {
   title: 'Loved by tech people',
   items: [
     {
-      name: 'Eelco Wiersma',
-      description: 'Founder Saas UI',
+      name: 'Laura Martínez',
+      description: 'Gerente de IT',
       avatar:
         'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
       children: (
         <>
-          “With SaaS UI I am able to produce high quality dashboard apps and
-          internal tools without a lot of design skills. The ROI really is
-          amazing.”
+          “La colaboración con Shinra Security fue esencial para proteger nuestra infraestructura de ataques cibernéticos. 
+           Su respuesta rápida y efectiva salvaguardó nuestros activos críticos. No puedo estar
+           más satisfecha con el nivel de servicio y seguridad que nos proporcionaron.”
         </>
       ),
     },
     {
-      name: 'Caroline Yahaya',
-      description: 'Fullstack Developer',
+      name: 'Jorge Benitez',
+      description: 'Director de Tecnología',
       avatar: '/static/images/avatar2.jpg',
       children: (
         <>
-          “Saas UI allows me to build beautiful and functional UI super fast.
-          The components are very well thought out and the Next.js starter kit
-          saved me at least 100 hours of work.”
+          “Al enfrentarnos a un ataque de ransomware, Shinra Security intervino con una eficacia impresionante. 
+          Su equipo no solo contuvo el ataque, sino que también nos ayudó a mejorar nuestras defensas para el futuro. 
+          Su compromiso con la excelencia es algo que realmente nos tranquiliza.”
+
         </>
       ),
     },
     {
-      name: 'Alberto Vazquez',
-      description: 'Frontend Engineer',
+      name: 'Manuel Vazquez',
+      description: 'Fundador de Solar Systems',
       avatar: '/static/images/avatar3.jpg',
       children: (
         <>
-          “Saas UI gave us a perfect starting point for our project, having the
-          storybooks already set up with beautifully crafted components and
-          fully mocked pages was a treat.”
+          “Después de implementar las soluciones de Shinra Security, hemos visto una reducción significativa en intentos de intrusiones.
+           Su enfoque personalizado y su atención al detalle nos han permitido operar con mayor confianza y seguridad.”
+
         </>
       ),
     },

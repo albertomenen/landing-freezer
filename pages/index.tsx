@@ -135,7 +135,7 @@ const HeroSection: React.FC = () => {
                     />
                   }
                 >
-                  View demo
+                  Contacta con nosotros
                 </ButtonLink>
               </ButtonGroup>
             </FallInPlace>
@@ -464,16 +464,16 @@ const FaqSection = () => {
 
 export default Home;
 
-export async function getStaticProps() {
-  return {
-    props: {
-      announcement: {
-        title: "Support us by becoming a stargazer! 🚀 ",
-        description:
-          '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
-        href: "https://github.com/saas-js/saas-ui",
-        action: false,
-      },
-    },
-  };
-}
+// export async function getStaticProps() {
+//   return {
+//     props: {
+//       announcement: {
+//         title: "Support us by becoming a stargazer! 🚀 ",
+//         description:
+//           '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
+//         href: "https://github.com/saas-js/saas-ui",
+//         action: false,
+//       },
+//     },
+//   };
+// }
