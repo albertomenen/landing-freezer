@@ -17,15 +17,15 @@ const siteConfig = {
     links: [
       {
         id: 'features',
-        label: 'Features',
+        label: 'Servicios',
       },
       {
         id: 'pricing',
-        label: 'Pricing',
+        label: 'Precios',
       },
       {
         id: 'faq',
-        label: 'FAQ',
+        label: 'Preguntas',
       },
       {
         label: 'Login',

@@ -97,15 +97,15 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                La seguridad informática
+                <Br /> en manos de expertos
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                Shinra ciberseguridad <Em>te ayuda con la ciberseguridad</Em>
+                <Br /> de tu empresa para que no te preocupes <Br />{" "}
+                de nada mas de que tu negocio crezca.
               </FallInPlace>
             }
           >
@@ -174,33 +174,33 @@ const HeroSection: React.FC = () => {
         pt="20"
         features={[
           {
-            title: "Accessible",
+            title: "Facil",
             icon: FiSmile,
-            description: "All components strictly follow WAI-ARIA standards.",
+            description: "Te explicamos cada uno de los pasos que realizaremos.",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Themable",
+            title: "Seguro",
             icon: FiSliders,
             description:
-              "Fully customize all components to your brand with theme support and style props.",
+              "Haremos que tu web o empresa este segura de posibles ataques.",
             iconPosition: "left",
             delay: 0.8,
           },
           {
-            title: "Composable",
+            title: "Pentesting",
             icon: FiGrid,
             description:
-              "Compose components to fit your needs and mix them together to create new ones.",
+              "Te haremos un estudio de pentesting personalizado segun tu caso.",
             iconPosition: "left",
             delay: 1,
           },
           {
-            title: "Productive",
+            title: "Test de vulnerabilidad",
             icon: FiThumbsUp,
             description:
-              "Designed to reduce boilerplate and fully typed, build your product at speed.",
+              "Que tan vulnerable es tu web/empresa, te hacemos un informe detallado.",
             iconPosition: "left",
             delay: 1.1,
           },
@@ -216,13 +216,13 @@ const HighlightsSection = () => {
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Core components">
+      <HighlightsItem colSpan={[1, null, 2]} title="Pentesting">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Get started for free with <Em>30+ open source components</Em>.
-            Including authentication screens with Clerk, Supabase and Magic.
-            Fully functional forms with React Hook Form. Data tables with React
-            Table.
+            Haz un informe completo <Em>de Pentesting para ISO </Em>.
+            Nosotros crearemos un informe completo para certificados ISO
+            con todos los requisitos y requerimientos que utilizamos para empresas que ya lo han conseguido
+            .
           </Text>
 
           <Flex
@@ -238,13 +238,13 @@ const HighlightsSection = () => {
           >
             <Box>
               <Text color="yellow.400" display="inline">
-                yarn add
+                informe pentesting 
               </Text>{" "}
               <Text color="cyan.300" display="inline">
-                @saas-ui/react
+                @menendez
               </Text>
             </Box>
-            <IconButton
+            {/* <IconButton
               icon={hasCopied ? <FiCheck /> : <FiCopy />}
               aria-label="Copy install command"
               onClick={onCopy}
@@ -252,15 +252,15 @@ const HighlightsSection = () => {
               ms="4"
               isRound
               color="white"
-            />
+            /> */}
           </Flex>
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Solid foundations">
+      <HighlightsItem title="Informe de vulnerablidad">
         <Text color="muted" fontSize="lg">
-          We don&apos;t like to re-invent the wheel, neither should you. We
-          selected the most productive and established tools in the scene and
-          build Saas UI on top of it.
+          El informe de vulnerabilidad es pedido por muchas empresas actualmente
+          nosotros te sacaremos un informe completo ademas con la ayuda del Ministerio de España.
+          con ayudas de hasta 2000 euros.
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
@@ -269,37 +269,37 @@ const HighlightsSection = () => {
         avatar="/static/images/avatar.jpg"
         gradient={["pink.200", "purple.500"]}
       >
-        “Saas UI helped us set up a beautiful modern UI in no time. It saved us
-        hundreds of hours in development time and allowed us to focus on
-        business logic for our specific use-case from the start.”
+        “Shinra ciberseguridad nos ayudó en un momento crítico en nuestra empresa
+        ya habiamos recibido varios ciberataques que nos hicieron perder mucho dinero
+        nos hicieron sentir muy seguros en todo momento y lo recomendariamos sin dudarlo.”
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Start your next idea two steps ahead"
+        title="Cuentanos tu problema y como podemos ayudarte"
       >
         <Text color="muted" fontSize="lg">
-          We took care of all your basic frontend needs, so you can start
-          building functionality that makes your product unique.
+          Nuestra forma de trabajar siempre será que nos reuniremos contigo para que
+          nos cuentes tu problema y te ayudaremos a ver la mejor solucion.
         </Text>
         <Wrap mt="8">
-          {[
-            "authentication",
-            "navigation",
-            "crud",
-            "settings",
-            "multi-tenancy",
-            "layouts",
-            "billing",
-            "a11y testing",
-            "server-side rendering",
-            "documentation",
-            "onboarding",
-            "storybooks",
-            "theming",
-            "upselling",
-            "unit testing",
-            "feature flags",
-            "responsiveness",
+            {[
+              "ciberseguridad",
+              "Seguridad de la información",
+              "ISO 13485",
+              "ISO 27001",
+              "Auditoría de seguridad",
+              "ciberdelincuentes",
+              "robo-de-información",
+              "Ciberataques",
+              "Malware",
+              "Phishing",
+              "Ransomware",
+              "Ingeniería social",
+              "Seguridad en la nube",
+              "Firewall",
+              "VPN (Virtual Private Network)",
+              "Seguridad de endpoint",
+              "Backup y recuperación de datos",
           ].map((value) => (
             <Tag
               key={value}
@@ -328,16 +328,15 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Not your standard
-          <Br /> dashboard template.
+          No somos la típica empresa
+          <Br /> de ciberseguridad.
         </Heading>
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
+          Shinra Ciberseguridad hablamos tu idioma
           <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          en ocasiones la ciberseguridad puede ser complicada, por eso te la hacemos simple.
         </>
       }
       align="left"
@@ -345,59 +344,59 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Components.",
+          title: "Premium.",
           icon: FiBox,
           description:
-            "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
+            "Todos los componentes premium están disponibles en un registro privado de NPM, evitando la necesidad de copiar y pegar código y garantizando que siempre estén actualizados con las últimas medidas de seguridad.",
           variant: "inline",
         },
         {
           title: "Starterkits.",
           icon: FiLock,
           description:
-            "Example apps in Next.JS, Electron. Including authentication, billing, example pages, everything you need to get started FAST.",
+            "Todo lo que necesitas para hacer tu informe de ciberseguridad de manera RAPIDA.",
           variant: "inline",
         },
         {
           title: "Documentation.",
           icon: FiSearch,
           description:
-            "Extensively documented, including storybooks, best practices, use-cases and examples.",
+            "Documentación extensa, incluyendo storybooks, mejores prácticas, casos de uso y ejemplos específicos de implementaciones de seguridad.",
           variant: "inline",
         },
         {
           title: "Onboarding.",
           icon: FiUserPlus,
           description:
-            "Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.",
+            "En el caso de que quieras haremos un recorrido de ciberseguridad con un equipo y le daremos tips y consejos.",
           variant: "inline",
         },
         {
           title: "Feature flags.",
           icon: FiFlag,
           description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
+            "Implementa interruptores de funcionalidades para tus planes de facturación con hooks fáciles de usar. Conecta con Flagsmith u otros servicios de configuración remota cuando estés listo.",
           variant: "inline",
         },
         {
           title: "Upselling.",
           icon: FiTrendingUp,
           description:
-            "Components and hooks for upgrade flows designed to make upgrading inside your app frictionless.",
+            "Componentes y hooks diseñados para flujos de mejora de planes, diseñados para hacer que la actualización dentro de tu aplicación sea sin fricciones.",
           variant: "inline",
         },
         {
-          title: "Themes.",
+          title: "Certificado.",
           icon: FiToggleLeft,
           description:
-            "Includes multiple themes with darkmode support, always have the perfect starting point for your next project.",
+            "Todos nuestros planes estan certificados para con los controles de seguridad del mismo.",
           variant: "inline",
         },
         {
           title: "Generators.",
           icon: FiTerminal,
           description:
-            "Extend your design system while maintaininig code quality and consistency with built-in generators.",
+            "Extiende tu sistema de diseño manteniendo la calidad y consistencia del código con generadores incorporados, enfocados en la seguridad.",
           variant: "inline",
         },
         {

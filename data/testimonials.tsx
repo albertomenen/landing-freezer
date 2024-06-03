@@ -3,7 +3,7 @@ export default {
   items: [
     {
       name: 'Laura Martínez',
-      description: 'Gerente de IT',
+      description: 'Emprendedora',
       avatar:
         'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
       children: (
@@ -16,7 +16,7 @@ export default {
     },
     {
       name: 'Jorge Benitez',
-      description: 'Director de Tecnología',
+      description: 'Desarrollador',
       avatar: '/static/images/avatar2.jpg',
       children: (
         <>

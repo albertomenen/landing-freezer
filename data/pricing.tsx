@@ -1,36 +1,30 @@
 import { HStack, Text } from '@chakra-ui/react'
 
 export default {
-  title: 'Pricing for every stage',
+  title: 'Soluciones de Ciberseguridad a tu medida',
   description:
-    'Pay once and get life-time access to our high quality components.',
+    'Entendemos que cada empresa tiene necesidades únicas en ciberseguridad, por eso ofrecemos planes adaptados a diferentes niveles de requerimiento y escalabilidad.',
   plans: [
     {
-      id: 'oss',
-      title: 'Open Source',
-      description: 'Basic compoents, perfect to get started.',
-      price: 'Free',
+      id: 'basic',
+      title: 'Básico',
+      description: 'Ideal para startups y pequeñas empresas que buscan protección fundamental.',
+      price: '€150/mes',
       features: [
         {
-          title: 'MIT License',
+          title: 'Certificación ISO 27001',
         },
         {
-          title: 'Authentication (Clerk/Supabase/Magic)',
+          title: 'Autenticación básica y segura',
         },
         {
-          title: 'Form (react-hook-form)',
+          title: 'Monitoreo y detección de vulnerabilidades básicas',
         },
         {
-          title: 'Modals manager',
+          title: 'Informes de seguridad mensuales',
         },
         {
-          title: 'Hotkeys',
-        },
-        {
-          title: 'Web3 components',
-        },
-        {
-          title: 'And much more...',
+          title: 'Soporte técnico limitado',
         },
       ],
       action: {
@@ -38,76 +32,89 @@ export default {
       },
     },
     {
-      id: 'bootstrap',
-      title: 'Bootstrap',
-      description: 'Complete frontend stack for bootstrappers and small teams.',
-      price: 'Free',
+      id: 'professional',
+      title: 'Profesional',
+      description: 'Para equipos y empresas en crecimiento que requieren protección avanzada y cumplimiento de normativas.',
+      price: '€350/mes',
       isRecommended: true,
       features: [
         {
-          title: 'One project',
+          title: 'Certificación ISO 27001 y ISO 13485',
         },
         {
-          title: 'One developer',
+          title: 'Gestión avanzada de autenticaciones y accesos',
         },
         {
-          title: 'Advanced components',
+          title: 'Detección proactiva de vulnerabilidades y amenazas',
         },
         {
-          title: 'Multiple themes',
+          title: 'Respuesta a incidentes y asistencia prioritaria',
         },
         {
-          title: 'Next.js and Electron boilerplates',
+          title: 'Acceso a comunidad privada y webinars exclusivos',
         },
         {
-          title: 'Private discord community',
-        },
-        {
-          title: '1 year of updates',
-        },
-        null,
-        {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: 'Actualizaciones y mejoras continuas',
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Single%20license',
+        href: 'https://tuempresa.com/professional-plan',
       },
     },
     {
-      id: 'startup',
-      title: 'Startup',
-      description: 'Unlimited license for growing teams.',
+      id: 'enterprise',
+      title: 'Empresarial',
+      description: 'Soluciones completas para grandes organizaciones que necesitan la máxima seguridad y personalización.',
       price: (
         <HStack>
           <Text textDecoration="line-through" fontSize="sm" color="gray.400">
-            €999,-
+            €2000,-
           </Text>
-          <Text>€499,-</Text>
+          <Text>€1500,-</Text>
         </HStack>
       ),
       features: [
         {
-          title: 'Unlimited projects',
+          title: 'Certificación ISO completa para ciberseguridad',
         },
         {
-          title: 'Unlimited developers',
+          title: 'Análisis de seguridad a medida y auditorías regulares',
         },
         {
-          title: '1 year of updates',
+          title: 'Monitoreo en tiempo real y respuesta avanzada a incidentes',
         },
         {
-          title: 'Everything from Bootstrap',
+          title: 'Formación personalizada en ciberseguridad para equipos',
         },
-        null,
         {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: 'Soporte dedicado 24/7',
+        },
+        {
+          title: 'Acceso a todas las funciones y actualizaciones premium',
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Unlimited%20license',
+        href: 'https://tuempresa.com/enterprise-plan',
+      },
+    },
+    {
+      id: 'contact',
+      title: 'Contacto Directo',
+      description: 'Para necesidades específicas o proyectos de gran envergadura, contáctanos para una solución personalizada.',
+      price: 'Consultar',
+      features: [
+        {
+          title: 'Soluciones a medida',
+        },
+        {
+          title: 'Evaluación de necesidades específicas',
+        },
+        {
+          title: 'Presupuesto personalizado',
+        },
+      ],
+      action: {
+        href: 'https://tuempresa.com/contact',
       },
     },
   ],
