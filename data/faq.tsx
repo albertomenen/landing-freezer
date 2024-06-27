@@ -5,26 +5,25 @@ const faq = {
   // description: '',
   items: [
     {
-      q: 'How many products can I use Saas UI Pro for?',
+      q: '¿Para cúantos proyectos se puede usar la opción profesional o empresarial?',
       a: (
         <>
-          The single license can be used for one commercial application or SaaS
-          product and unlimited internal tools. You can buy as many licenses as
-          you need. <br /> The unlimited license does not have any restrictions.
+          La licencia de cada una de las opciones vale para una sola empresa pero en diferentes capas, ademas de la complejidad de la propia empresa que puede ser diferentes.
+           <br /> En cada una de ellas te haremos un precio a medida en el caso de grandes cuentas.
         </>
       ),
     },
     {
-      q: 'Can I use Saas UI Pro for client work?',
-      a: "Yes, that's totally up to you, as long as it fits the license you purchase.",
+      q: '¿Recibiré entrenamiento por parte de la empresa para los diferentes casos de ataque que puedan ocurrir?',
+      a: "Si, cada uno de los estudios y en caso de que se quiera, podremos realizar conferencias ya sea presenciales u online de cómo actuar en caso de crisis.",
     },
     {
-      q: 'Can I use Saas UI Pro for Open Source projects?',
-      a: 'No currently not. A large part of Saas UI is already released under MIT license. We try to give back to the community as much as possible.',
+      q: 'En caso de que ya haya recibido un ataque, ¿vale vuestro servicio?',
+      a: 'Tendtriamos que realizar un estudio de ciberseguridad antes de la situación en la que os encontrais en ese mismo momento pero os podemos guiar en cómo actuar en esos casos y en analizar la situación y su alcance.',
     },
     {
-      q: 'Does Saas UI include Figma, Sketch or other design files?',
-      a: 'No, Saas UI does not include any design assets. Maintaining design resources costs a lot of extra effort. We believe small teams can move much faster by designing directly in code, with help of Storybooks.',
+      q: 'Aparte de los servicios que mencionais, ¿teneis algún otro servicio que no aparezca?',
+      a: 'Si, tenemos varias opciones que si nos contactas podemos hablar y discutir con nuestros equipo dependiendo de lo que necesiteis en términos de ciberseguridad.',
     },
   ],
 }
