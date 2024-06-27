@@ -9,7 +9,7 @@ interface FaqProps extends Omit<SectionProps, 'title' | 'children'> {
 
 export const Faq: React.FC<FaqProps> = (props) => {
   const {
-    title = 'Frequently asked questions',
+    title = 'Preguntas frecuentes',
     description,
     items = [],
   } = props
