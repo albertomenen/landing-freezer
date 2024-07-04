@@ -2,7 +2,6 @@ import { Box } from '@chakra-ui/react'
 import { ReactNode } from 'react'
 
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav'
-import GoogleTagManager from "@components/custom/GoogleTagManager"
 import Script from 'next/script'
 
 import { Header, HeaderProps } from './header'
