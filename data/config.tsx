@@ -41,27 +41,27 @@ const siteConfig = {
   footer: {
     copyright: (
       <>
-        Built by{' '}
+        Built by{'Menensito '}
         <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
       </>
     ),
     links: [
       {
-        href: 'mailto:hello@saas-ui.dev',
+        href: 'mailto:shinraciberseguridad@gmail.com',
         label: 'Contact',
       },
       {
-        href: 'https://twitter.com/saas_js',
+        href: 'https://x.com/Shinrasecurity',
         label: <FaTwitter size="14" />,
       },
       {
-        href: 'https://github.com/saas-js/saas-ui',
+        href: 'https://github.com/',
         label: <FaGithub size="14" />,
       },
     ],
   },
   signup: {
-    title: 'Start building with Saas UI',
+    title: 'Start with the Cybersecurity now',
     features: [
       {
         icon: FiCheck,
