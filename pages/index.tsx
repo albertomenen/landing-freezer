@@ -65,8 +65,8 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Saas UI Landingspage"
-        description="Free SaaS landingspage starter kit"
+        title="Shinra Ciberseguridad"
+        description="La ciberseguridad de tu empresa, sin costos extra"
       />
       <Box>
         <HeroSection />
