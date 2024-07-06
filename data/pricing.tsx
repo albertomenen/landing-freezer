@@ -2,7 +2,7 @@ import { HStack, Text, Button } from '@chakra-ui/react'
 import { loadStripe } from '@stripe/stripe-js'
 import { Stripe } from '@stripe/stripe-js'
 
-const stripePromise: Promise<Stripe | null> = loadStripe('tu-clave-publica-de-stripe')
+const stripePromise: Promise<Stripe | null> = loadStripe('pk_test_51MnsC2IzTEr3BZIaH6ub4XcUzVzApm3wZ8ufLhA6WJlRiSPQeqfcfWeaRwuwsNW9WCBArpaJT5Apb92X3ryDu93Y00YvTyxTk5')
 
 export default {
   title: 'Soluciones de Ciberseguridad a tu medida',
@@ -21,7 +21,7 @@ export default {
         { title: 'Soporte técnico limitado' },
       ],
       action: {
-        href: '#',
+        href: 'https://buy.stripe.com/test_7sIbKU4uOgNnaHubIJ',
       },
     },
     {
@@ -39,7 +39,7 @@ export default {
         { title: 'Actualizaciones y mejoras continuas' },
       ],
       action: {
-        href: 'https://tuempresa.com/professional-plan',
+        href: 'https://buy.stripe.com/test_7sIeX69P868J8zm5kn',
       },
     },
     {
@@ -61,7 +61,7 @@ export default {
         { title: 'Acceso a todas las funciones y actualizaciones premium' },
       ],
       action: {
-        href: 'mailto:shinraciberseguridad@gmail.com',
+        href: 'https://buy.stripe.com/test_5kA4is3qK9kV02Q004',
       },
     },
     {
@@ -87,8 +87,8 @@ const redirectToStripe = async (priceId: string) => {
     const { error } = await stripe.redirectToCheckout({
       lineItems: [{ price: priceId, quantity: 1 }],
       mode: 'subscription',
-      successUrl: 'https://tuempresa.com/success',
-      cancelUrl: 'https://tuempresa.com/cancel',
+      successUrl: 'https://civerseguridad.com',
+      cancelUrl: 'https://civerseguridad.com',
     })
     if (error) {
       console.error('Error redireccionando a Stripe:', error)
