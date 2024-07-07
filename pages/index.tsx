@@ -152,9 +152,9 @@ const HeroSection: React.FC = () => {
             <FallInPlace delay={1}>
               <Box overflow="hidden" height="100%">
                 <Image
-                  src="/static/screenshots/list.png"
+                  src="/static/screenshots/security-key.svg"
                   layout="fixed"
-                  width={1200}
+                  width={700}
                   height={762}
                   alt="Screenshot of a ListPage in Saas UI Pro"
                   quality="75"
