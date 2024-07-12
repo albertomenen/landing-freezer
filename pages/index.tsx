@@ -120,7 +120,7 @@ const HeroSection: React.FC = () => {
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.saas-ui.dev"
+                  href="https://jysbctn2wk1.typeform.com/to/SsnKJVKD"
                   variant="outline"
                   rightIcon={
                     <Icon
