@@ -10,6 +10,7 @@ import {
   AnnouncementBannerProps,
 } from '../announcement-banner'
 import { Footer, FooterProps } from './footer'
+import GoogleAnalytics from 'pages/GoogleAnalytics'
 
 interface LayoutProps {
   children: ReactNode
@@ -24,7 +25,7 @@ export const Layout: React.FC<LayoutProps> = (props) => {
     <Box>
       <SkipNavLink>Skip to content</SkipNavLink>
       <head>
-        {/* <GoogleTagManager containerId='GTM-TLMXDLZV'/> */}
+        {/* <GoogleTagManager containerId='GTM-58WFZW6W'/> */}
        
           <Script
             id="gtm"
@@ -34,7 +35,7 @@ export const Layout: React.FC<LayoutProps> = (props) => {
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-TLMXDLZV');`
+              })(window,document,'script','dataLayer','GTM-58WFZW6W');`
             }} 
           ></Script>
          
@@ -43,6 +44,7 @@ export const Layout: React.FC<LayoutProps> = (props) => {
       <Header {...headerProps} />
       <Box as="main">
         <SkipNavContent />
+        <GoogleAnalytics />
         {children}
       </Box>
       <Footer {...footerProps} />
