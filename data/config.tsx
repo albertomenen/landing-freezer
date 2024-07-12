@@ -41,8 +41,8 @@ const siteConfig = {
   footer: {
     copyright: (
       <>
-        Built by{'Menensito '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        Built by{' Menensito '}
+        <Link href="https://x.com/Shinrasecurity">Shinra</Link>
       </>
     ),
     links: [
