@@ -97,8 +97,8 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                La seguridad informática
-                <Br /> en manos de expertos
+                La seguridad de tu empresa
+                <Br /> a suscripción
               </FallInPlace>
             }
             description={
@@ -176,7 +176,7 @@ const HeroSection: React.FC = () => {
           {
             title: "Facil",
             icon: FiSmile,
-            description: "Te explicamos cada uno de los pasos que realizaremos.",
+            description: "Te explicamos cada uno de los pasos que realizaremos y guiaremos en el proceso.",
             iconPosition: "left",
             delay: 0.6,
           },
@@ -347,42 +347,42 @@ const FeaturesSection = () => {
           title: "Premium.",
           icon: FiBox,
           description:
-            "Todos los componentes premium están disponibles en un registro privado de NPM, evitando la necesidad de copiar y pegar código y garantizando que siempre estén actualizados con las últimas medidas de seguridad.",
+            "Todos los servicios que ofrecemos son dados por los profesionales top en el sector con mas de 5 años de experiencia.",
           variant: "inline",
         },
         {
-          title: "Starterkits.",
+          title: "Rápido.",
           icon: FiLock,
           description:
-            "Todo lo que necesitas para hacer tu informe de ciberseguridad de manera RAPIDA.",
+            "Te ayudamos de forma rápida para que no tengas que estar esperando a ver que es lo que puede estar pasando y ya sea demasiado tarde.",
           variant: "inline",
         },
         {
-          title: "Documentation.",
+          title: "Documentado.",
           icon: FiSearch,
           description:
-            "Documentación extensa, incluyendo storybooks, mejores prácticas, casos de uso y ejemplos específicos de implementaciones de seguridad.",
+            "Te daremos toda la documentación que realicemos para que, una vez este en tu poder, puedas actuar de forma efectiva",
           variant: "inline",
         },
         {
-          title: "Onboarding.",
+          title: "Bienvenida.",
           icon: FiUserPlus,
           description:
-            "En el caso de que quieras haremos un recorrido de ciberseguridad con un equipo y le daremos tips y consejos.",
+            "Sabemos que muchas veces nos contactan personas que no son técnicas, por ello, hablamos en un lenguaje fácil de entender para gente que no tiene experiencia.",
           variant: "inline",
         },
         {
-          title: "Feature flags.",
+          title: "Avisos.",
           icon: FiFlag,
           description:
-            "Implementa interruptores de funcionalidades para tus planes de facturación con hooks fáciles de usar. Conecta con Flagsmith u otros servicios de configuración remota cuando estés listo.",
+            "Te vamos a ayudar a marcar aquellas cosas que no son seguras en tu empresa ademas de decirte posibles vulnerabilidades que puedes llegar a tener.",
           variant: "inline",
         },
         {
-          title: "Upselling.",
+          title: "Cambio de tarifa.",
           icon: FiTrendingUp,
           description:
-            "Componentes y hooks diseñados para flujos de mejora de planes, diseñados para hacer que la actualización dentro de tu aplicación sea sin fricciones.",
+            "¿Tu empresa crece y quieres contratar otro servicio? Sin problema, tenemos la solucion para ti",
           variant: "inline",
         },
         {
@@ -399,18 +399,7 @@ const FeaturesSection = () => {
             "Extiende tu sistema de diseño manteniendo la calidad y consistencia del código con generadores incorporados, enfocados en la seguridad.",
           variant: "inline",
         },
-        {
-          title: "Monorepo.",
-          icon: FiCode,
-          description: (
-            <>
-              All code is available as packages in a high-performance{" "}
-              <Link href="https://turborepo.com">Turborepo</Link>, you have full
-              control to modify and adjust it to your workflow.
-            </>
-          ),
-          variant: "inline",
-        },
+        
       ]}
     />
   );
