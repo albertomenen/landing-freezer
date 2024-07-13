@@ -219,9 +219,9 @@ const HighlightsSection = () => {
       <HighlightsItem colSpan={[1, null, 2]} title="Pentesting">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Haz un informe completo <Em>de Pentesting para ISO </Em>.
-            Nosotros crearemos un informe completo para certificados ISO
-            con todos los requisitos y requerimientos que utilizamos para empresas que ya lo han conseguido
+            ¿Necesitas un informe de seguridad <Em>Pentesting?</Em>.
+            No te preocupes, sabemos lo que es. Nosotros te ayudaremos con todos los pasos necesarios
+            y con todas las vulnerabilidades que encontremos
             .
           </Text>
 
