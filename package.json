@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@auth0/nextjs-auth0": "^3.5.0",
     "@chakra-ui/react": "^2.8.2",
     "@chakra-ui/skip-nav": "^2.1.0",
     "@chakra-ui/system": "^2.6.2",
@@ -24,6 +26,9 @@
     "@swc/helpers": "^0.5.11",
     "contentlayer": "0.3.4",
     "date-fns": "^2.30.0",
+    "express": "^4.19.2",
+    "express-openid-connect": "^2.17.1",
+    "express-session": "^1.18.0",
     "framer-motion": "^10.18.0",
     "next": "13.3.2",
     "next-contentlayer": "^0.3.4",

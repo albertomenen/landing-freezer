@@ -61,6 +61,7 @@ import {
   HighlightsTestimonialItem,
 } from "components/highlights";
 
+
 const Home: NextPage = () => {
   return (
     <Box>
@@ -115,7 +116,7 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
+                <ButtonLink colorScheme="primary" size="lg" href="/api/auth/login?screen_hint=signup">
                   Sign Up
                 </ButtonLink>
                 <ButtonLink
@@ -192,7 +193,7 @@ const HeroSection: React.FC = () => {
             title: "Pentesting",
             icon: FiGrid,
             description:
-              "Te haremos un estudio de pentesting personalizado segun tu caso.",
+              "Te haremos un estudio de tu empresa para que sepas donde puede estar el peligro",
             iconPosition: "left",
             delay: 1,
           },
@@ -200,7 +201,7 @@ const HeroSection: React.FC = () => {
             title: "Test de vulnerabilidad",
             icon: FiThumbsUp,
             description:
-              "Que tan vulnerable es tu web/empresa, te hacemos un informe detallado.",
+              "Te haremos un test de vulnerabilidad para que estes preparado",
             iconPosition: "left",
             delay: 1.1,
           },
@@ -451,6 +452,8 @@ const FaqSection = () => {
 };
 
 export default Home;
+
+
 
 // export async function getStaticProps() {
 //   return {
