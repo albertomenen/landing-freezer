@@ -116,7 +116,7 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/api/auth/login?screen_hint=signup">
+                <ButtonLink colorScheme="primary" size="lg" href="/api/auth/login">
                   Sign Up
                 </ButtonLink>
                 <ButtonLink
