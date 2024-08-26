@@ -29,7 +29,7 @@ const siteConfig = {
       },
       {
         label: 'Login',
-        href: '/login',
+        href: '/api/auth/login',
       },
       {
         label: 'Sign Up',
