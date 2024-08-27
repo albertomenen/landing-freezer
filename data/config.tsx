@@ -4,8 +4,11 @@ import { NextSeoProps } from 'next-seo'
 import { FaGithub, FaTwitter } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
 import { Logo } from './logo'
+import { useUser } from '@auth0/nextjs-auth0/client'; 
 
 const siteConfig = {
+
+
   logo: Logo,
   seo: {
     title: 'Saas UI',
@@ -33,7 +36,7 @@ const siteConfig = {
       },
       {
         label: 'Sign Up',
-        href: '/signup',
+        href: '/api/auth/signup',
         variant: 'primary',
       },
     ],

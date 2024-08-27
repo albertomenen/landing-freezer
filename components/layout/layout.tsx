@@ -1,5 +1,7 @@
 import { Box } from '@chakra-ui/react'
 import { ReactNode } from 'react'
+import { UserProvider } from '@auth0/nextjs-auth0/client';
+
 
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav'
 import Script from 'next/script'
@@ -25,6 +27,12 @@ export const Layout: React.FC<LayoutProps> = (props) => {
     <Box>
       <SkipNavLink>Skip to content</SkipNavLink>
       <head>
+
+      <html lang="en">
+    <UserProvider>
+      <body>{children}</body>
+    </UserProvider>
+    </html>
         {/* <GoogleTagManager containerId='GTM-58WFZW6W'/> */}
        
           <Script
