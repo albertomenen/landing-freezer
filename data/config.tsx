@@ -5,10 +5,10 @@ import { FaGithub, FaTwitter } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
 import { Logo } from './logo'
 import { useUser } from '@auth0/nextjs-auth0/client'; 
+import { useSession, signOut } from 'next-auth/react';
+
 
 const siteConfig = {
-
-
   logo: Logo,
   seo: {
     title: 'Saas UI',
@@ -32,11 +32,11 @@ const siteConfig = {
       },
       {
         label: 'Login',
-        href: '/api/auth/login',
+        href: '/api/auth/signin',
       },
       {
         label: 'Sign Up',
-        href: '/api/auth/signup',
+        href: '/api/auth/signin',
         variant: 'primary',
       },
     ],

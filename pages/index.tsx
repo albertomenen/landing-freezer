@@ -61,8 +61,11 @@ import {
   HighlightsTestimonialItem,
 } from "components/highlights";
 
+import { useSession, signOut } from "next-auth/react";
+
 
 const Home: NextPage = () => {
+   const { data: session } = useSession();
   return (
     <Box>
       <SEO
