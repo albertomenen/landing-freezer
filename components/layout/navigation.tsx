@@ -1,21 +1,20 @@
 import * as React from "react";
-import { HStack } from "@chakra-ui/react";
-
+import { Button, HStack } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-
 import siteConfig from "data/config";
-
 import { NavLink } from "components/nav-link";
-
 import { useScrollSpy } from "hooks/use-scrollspy";
-
 import { MobileNavButton } from "components/mobile-nav";
 import { MobileNavContent } from "components/mobile-nav";
 import { useDisclosure, useUpdateEffect } from "@chakra-ui/react";
-
+import { useAuth0 } from "@auth0/auth0-react";
 import ThemeToggle from "./theme-toggle";
+import LogoutButton from "./logout"; // Import the LogoutButton
 
 const Navigation: React.FC = () => {
+
+  console.log(LogoutButton)
+  const { user } = useAuth0();  
   const mobileNav = useDisclosure();
   const router = useRouter();
   const activeId = useScrollSpy(
@@ -35,24 +34,27 @@ const Navigation: React.FC = () => {
 
   return (
     <HStack spacing="2" flexShrink={0}>
-      {siteConfig.header.links.map(({ href, id, ...props }, i) => {
-        return (
-          <NavLink
-            display={["none", null, "block"]}
-            href={href || `/#${id}`}
-            key={i}
-            isActive={
-              !!(
-                (id && activeId === id) ||
-                (href && !!router.asPath.match(new RegExp(href)))
-              )
-            }
-            {...props}
-          >
-            {props.label}
-          </NavLink>
-        );
-      })}
+      {siteConfig.header.links.map(({ href, id, ...props }, i) => (
+        <NavLink
+          display={["none", null, "block"]}
+          href={href || `/#${id}`}
+          key={i}
+          isActive={
+            !!(
+              (id && activeId === id) ||
+              (href && !!router.asPath.match(new RegExp(href)))
+            )
+          }
+          {...props}
+        >
+          {props.label}
+        </NavLink>
+      ))}
+
+      {/* Conditionally render the logout button outside of the map function */}
+      
+        <LogoutButton /> 
+      
 
       <ThemeToggle />
 
