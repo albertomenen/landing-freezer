@@ -92,12 +92,12 @@ const redirectToStripe = async (priceId: string) => {
 }
 
 // Añade esta función al renderizado del botón correspondiente
-const SignUpButton: React.FC<{ priceId: string }> = ({ priceId }) => {
-  return (
-    <Button colorScheme="teal" onClick={() => redirectToStripe(priceId)}>
-      Sign Up
-    </Button>
-  )
-}
+// const SignUpButton: React.FC<{ priceId: string }> = ({ priceId }) => {
+//   return (
+//     <Button colorScheme="teal" onClick={() => redirectToStripe(priceId)}>
+//       Sign Up
+//     </Button>
+//   )
+// }
 
 // Asegúrate de utilizar SignUpButton en los lugares apropiados dentro del componente de renderizado de planes
