@@ -12,7 +12,7 @@ export default {
       id: 'prod_QOywIZ72umIpGg',
       title: 'Básico',
       description: 'Ideal para startups y pequeñas empresas que buscan protección fundamental.',
-      price: '€150/mes',
+      price: '€150',
       features: [
         { title: 'Certificación ISO 27001' },
         { title: 'Autenticación básica y segura' },
@@ -21,14 +21,14 @@ export default {
         { title: 'Soporte técnico limitado' },
       ],
       action: {
-        href: 'https://buy.stripe.com/test_7sIbKU4uOgNnaHubIJ',
+        href: 'https://buy.stripe.com/3cs5m5c6SgIZekw8wy',
       },
     },
     {
       id: 'prod_QOyxbYgXk1SGVg',
       title: 'Profesional',
       description: 'Para equipos y empresas en crecimiento que requieren protección avanzada y cumplimiento de normativas.',
-      price: '€350/mes',
+      price: '€350',
       isRecommended: true,
       features: [
         { title: 'Certificación ISO 27001 y ISO 13485' },
@@ -39,19 +39,14 @@ export default {
         { title: 'Actualizaciones y mejoras continuas' },
       ],
       action: {
-        href: 'https://buy.stripe.com/test_7sIeX69P868J8zm5kn',
+        href: 'https://buy.stripe.com/28odSB9YK78p0tG28b',
       },
     },
     {
       id: 'prod_QOyy0Ppi1dhp61',
       title: 'Empresarial',
       description: 'Soluciones completas para grandes organizaciones que necesitan la máxima seguridad y personalización.',
-      price: (
-        <HStack>
-          <Text textDecoration="line-through" fontSize="sm" color="gray.400">€2000,-</Text>
-          <Text>€1500,-</Text>
-        </HStack>
-      ),
+      price: '€3500',
       features: [
         { title: 'Certificación ISO completa para ciberseguridad' },
         { title: 'Análisis de seguridad a medida y auditorías regulares' },
@@ -61,7 +56,7 @@ export default {
         { title: 'Acceso a todas las funciones y actualizaciones premium' },
       ],
       action: {
-        href: 'https://buy.stripe.com/test_5kA4is3qK9kV02Q004',
+        href: 'https://buy.stripe.com/bIYg0J7QCdwNgsE9AE',
       },
     },
     {
