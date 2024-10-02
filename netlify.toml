@@ -1,0 +1,807 @@
+[functions]
+
+  [functions._ipx]
+  node_bundler = "nft"
+
+  [functions.___netlify-handler]
+  included_files = [
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!.next/server/**/*.map",
+    "!**/node_modules/@next/swc*/**/*",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js",
+    "node_modules/.pnpm/styled-jsx@5.1.1_@babel+core@7.25.2_react@18.2.0/node_modules/styled-jsx/style.js"
+  ]
+  external_node_modules = []
+  node_bundler = "nft"
+
+  [functions.___netlify-odb-handler]
+  included_files = [
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!.next/server/**/*.map",
+    "!**/node_modules/@next/swc*/**/*",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js",
+    "node_modules/.pnpm/styled-jsx@5.1.1_@babel+core@7.25.2_react@18.2.0/node_modules/styled-jsx/style.js"
+  ]
+  external_node_modules = []
+  node_bundler = "nft"
+
+  [functions."_api_*"]
+  included_files = [
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!.next/server/**/*.map",
+    "!**/node_modules/@next/swc*/**/*",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js",
+    "node_modules/.pnpm/styled-jsx@5.1.1_@babel+core@7.25.2_react@18.2.0/node_modules/styled-jsx/style.js"
+  ]
+  external_node_modules = []
+  node_bundler = "nft"
+
+[build]
+
+  [build.environment]
+  NEXT_PRIVATE_TARGET = "server"
+
+[[redirects]]
+from = "/_next/static/*"
+to = "/static/:splat"
+status = 200
+
+[[redirects]]
+from = "/_next/image*"
+to = "/_ipx/w_:width,q_:quality/:url"
+status = 301
+
+  [redirects.query]
+  url = ":url"
+  w = ":width"
+  q = ":quality"
+
+[[redirects]]
+from = "/_ipx/*"
+to = "/.netlify/builders/_ipx"
+status = 200
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/static/favicons/android-icon-144x144.png"
+to = "/static/favicons/android-icon-144x144.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/android-icon-192x192.png"
+to = "/static/favicons/android-icon-192x192.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/android-icon-36x36.png"
+to = "/static/favicons/android-icon-36x36.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/android-icon-48x48.png"
+to = "/static/favicons/android-icon-48x48.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/android-icon-72x72.png"
+to = "/static/favicons/android-icon-72x72.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/android-icon-96x96.png"
+to = "/static/favicons/android-icon-96x96.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-114x114.png"
+to = "/static/favicons/apple-icon-114x114.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-120x120.png"
+to = "/static/favicons/apple-icon-120x120.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-144x144.png"
+to = "/static/favicons/apple-icon-144x144.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-152x152.png"
+to = "/static/favicons/apple-icon-152x152.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-180x180.png"
+to = "/static/favicons/apple-icon-180x180.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-57x57.png"
+to = "/static/favicons/apple-icon-57x57.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-60x60.png"
+to = "/static/favicons/apple-icon-60x60.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-72x72.png"
+to = "/static/favicons/apple-icon-72x72.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-76x76.png"
+to = "/static/favicons/apple-icon-76x76.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon-precomposed.png"
+to = "/static/favicons/apple-icon-precomposed.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/apple-icon.png"
+to = "/static/favicons/apple-icon.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/browserconfig.xml"
+to = "/static/favicons/browserconfig.xml"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/favicon-16x16.png"
+to = "/static/favicons/favicon-16x16.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/favicon-32x32.png"
+to = "/static/favicons/favicon-32x32.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/favicon-96x96.png"
+to = "/static/favicons/favicon-96x96.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/favicon.ico"
+to = "/static/favicons/favicon.ico"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/manifest.json"
+to = "/static/favicons/manifest.json"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/ms-icon-144x144.png"
+to = "/static/favicons/ms-icon-144x144.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/ms-icon-150x150.png"
+to = "/static/favicons/ms-icon-150x150.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/ms-icon-310x310.png"
+to = "/static/favicons/ms-icon-310x310.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/favicons/ms-icon-70x70.png"
+to = "/static/favicons/ms-icon-70x70.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/images/avatar.jpg"
+to = "/static/images/avatar.jpg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/images/avatar2.jpg"
+to = "/static/images/avatar2.jpg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/images/avatar3.jpg"
+to = "/static/images/avatar3.jpg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/images/eelco.jpg"
+to = "/static/images/eelco.jpg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/screenshots/billing.png"
+to = "/static/screenshots/billing.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/screenshots/dashboard.png"
+to = "/static/screenshots/dashboard.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/screenshots/gdpr-eu.svg"
+to = "/static/screenshots/gdpr-eu.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/screenshots/landingspage.png"
+to = "/static/screenshots/landingspage.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/screenshots/list.png"
+to = "/static/screenshots/list.png"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/screenshots/security-guy.svg"
+to = "/static/screenshots/security-guy.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/screenshots/security-key.svg"
+to = "/static/screenshots/security-key.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/screenshots/suit-security.svg"
+to = "/static/screenshots/suit-security.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/static/screenshots/two-factor-authentication.svg"
+to = "/static/screenshots/two-factor-authentication.svg"
+status = 200
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/*"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+force = true
+
+  [redirects.conditions]
+  Cookie = [
+    "__prerender_bypass",
+    "__next_preview_data"
+  ]
+
+[[redirects]]
+from = "/_next/data/JTdZVilxNxIV2wl36txG8/index.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/JTdZVilxNxIV2wl36txG8/GoogleAnalytics.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/GoogleAnalytics"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/JTdZVilxNxIV2wl36txG8/blog.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/blog"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/JTdZVilxNxIV2wl36txG8/login.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/login"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/JTdZVilxNxIV2wl36txG8/signup.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/signup"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[context]
+
+  [context.production]
+
+    [context.production.environment]
+    NEXT_PRIVATE_TARGET = "server"
+
+    [context.production.functions]
+
+      [context.production.functions._ipx]
+      node_bundler = "nft"
+
+      [context.production.functions.___netlify-handler]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js",
+        "node_modules/.pnpm/styled-jsx@5.1.1_@babel+core@7.25.2_react@18.2.0/node_modules/styled-jsx/style.js"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+      [context.production.functions.___netlify-odb-handler]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js",
+        "node_modules/.pnpm/styled-jsx@5.1.1_@babel+core@7.25.2_react@18.2.0/node_modules/styled-jsx/style.js"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+      [context.production.functions."_api_*"]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js",
+        "node_modules/.pnpm/styled-jsx@5.1.1_@babel+core@7.25.2_react@18.2.0/node_modules/styled-jsx/style.js"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+    [context.production.build]
+
+      [context.production.build.environment]
+      NEXT_PRIVATE_TARGET = "server"
+
+  [context.main]
+
+    [context.main.environment]
+    NEXT_PRIVATE_TARGET = "server"
+
+    [context.main.functions]
+
+      [context.main.functions._ipx]
+      node_bundler = "nft"
+
+      [context.main.functions.___netlify-handler]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js",
+        "node_modules/.pnpm/styled-jsx@5.1.1_@babel+core@7.25.2_react@18.2.0/node_modules/styled-jsx/style.js"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+      [context.main.functions.___netlify-odb-handler]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js",
+        "node_modules/.pnpm/styled-jsx@5.1.1_@babel+core@7.25.2_react@18.2.0/node_modules/styled-jsx/style.js"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+      [context.main.functions."_api_*"]
+      included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/.pnpm/next@13.3.2_@babel+core@7.25.2_@opentelemetry+api@1.5.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/compiled/webpack/bundle5.js",
+        "node_modules/.pnpm/styled-jsx@5.1.1_@babel+core@7.25.2_react@18.2.0/node_modules/styled-jsx/style.js"
+      ]
+      external_node_modules = []
+      node_bundler = "nft"
+
+    [context.main.build]
+
+      [context.main.build.environment]
+      NEXT_PRIVATE_TARGET = "server"
